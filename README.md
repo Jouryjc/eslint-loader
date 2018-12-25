@@ -129,10 +129,10 @@ module.exports = {
           // several examples !
 
           // default value
-          formatter: require("eslint/lib/formatters/stylish"),
+          formatter: "eslint/lib/formatters/stylish",
 
           // community formatter
-          formatter: require("eslint-friendly-formatter"),
+          formatter: "eslint-friendly-formatter",
 
           // custom formatter
           formatter: function(results) {
